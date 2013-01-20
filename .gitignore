@@ -1,6 +1,9 @@
-*.class
+# IntelliJ IDEA
+.idea
+*.ipr
+*.iml
+*.iws
 
-# Package Files #
-*.jar
-*.war
-*.ear
+# Maven
+target
+
