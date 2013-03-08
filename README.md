@@ -1,5 +1,7 @@
 # Struts2 DMI aware validation
 
+[![Build Status](https://travis-ci.org/lukaszlenart/struts2-dmi-validation.png?branch=master)](https://travis-ci.org/lukaszlenart/struts2-dmi-validation)
+
 Simple demo how to define your own naming schema for XML validation files. 
 If DMI is enabled and method name is set the file name will be like this: 
 
