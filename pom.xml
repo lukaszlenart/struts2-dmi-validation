@@ -9,7 +9,7 @@
     <name>struts2-dmi-validation</name>
 
     <properties>
-        <struts2.version>2.3.9-SNAPSHOT</struts2.version>
+        <struts2.version>2.3.12-SNAPSHOT</struts2.version>
     </properties>
 
     <dependencies>
