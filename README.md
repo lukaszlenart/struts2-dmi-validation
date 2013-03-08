@@ -9,4 +9,4 @@ The whole magic happens in `DMIAwareValidationInterceptor.java` which simple
 overrides `getValidationContext(ActionProxy proxy)` to provide their own
 naming convention.
 
-Code is published under [Apache License 2.0](http://www.apache.org/licenses/LICENSE-2.0.html)
+Published under [Apache License 2.0](http://www.apache.org/licenses/LICENSE-2.0.html)
