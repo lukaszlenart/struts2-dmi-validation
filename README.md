@@ -9,4 +9,9 @@ The whole magic happens in `DMIAwareValidationInterceptor.java` which simple
 overrides `getValidationContext(ActionProxy proxy)` to provide their own
 naming convention.
 
+There are two endpoints defined:
+
+- /example/Login.action to show how to use context validation with !
+- /methods/Login!input.action to show classic example how validation works with DMI
+
 Code is published under [Apache License 2.0](http://www.apache.org/licenses/LICENSE-2.0.html)

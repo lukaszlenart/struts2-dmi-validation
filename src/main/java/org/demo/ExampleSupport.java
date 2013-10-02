@@ -1,5 +1,5 @@
 /*
- * $Id: Login.java 739661 2009-02-01 00:06:00Z davenewton $
+ * $Id: ExampleSupport.java 739661 2009-02-01 00:06:00Z davenewton $
  *
  * Licensed to the Apache Software Foundation (ASF) under one
  * or more contributor license agreements.  See the NOTICE file
@@ -19,42 +19,12 @@
  * under the License.
  */
 
-package org.demo.example;
+package org.demo;
 
-import org.demo.ExampleSupport;
+import com.opensymphony.xwork2.ActionSupport;
 
-public class Login extends ExampleSupport {
-
-    public String execute() throws Exception {
-        return SUCCESS;
-    }
-
-    public String input() {
-        return SUCCESS;
-    }
-
-    public String check() {
-        return "logged";
-    }
-
-    private String username;
-
-    public String getUsername() {
-        return username;
-    }
-
-    public void setUsername(String username) {
-        this.username = username;
-    }
-
-    private String password;
-
-    public String getPassword() {
-        return password;
-    }
-
-    public void setPassword(String password) {
-        this.password = password;
-    }
-
+/**
+ * Base Action class for the Tutorial package.
+ */
+public class ExampleSupport extends ActionSupport {
 }

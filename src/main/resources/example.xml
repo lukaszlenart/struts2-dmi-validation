@@ -51,7 +51,7 @@
             <result name="logged" type="redirectAction">Welcome</result>
         </action>
 
-        <action name="*" class="org.demo.example.ExampleSupport">
+        <action name="*" class="org.demo.ExampleSupport">
             <result>/example/{1}.jsp</result>
         </action>
 
