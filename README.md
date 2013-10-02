@@ -1,5 +1,7 @@
 # Struts2 DMI aware validation
 
+[![Build Status](https://travis-ci.org/lukaszlenart/struts2-dmi-validation.png?branch=master)](https://travis-ci.org/lukaszlenart/struts2-dmi-validation)
+
 Simple demo how to define your own naming schema for XML validation files. 
 If DMI is enabled and method name is set the file name will be like this: 
 
@@ -14,4 +16,4 @@ There are two endpoints defined:
 - /example/Login.action to show how to use context validation with !
 - /methods/Login!input.action to show classic example how validation works with DMI
 
-Code is published under [Apache License 2.0](http://www.apache.org/licenses/LICENSE-2.0.html)
+Published under [Apache License 2.0](http://www.apache.org/licenses/LICENSE-2.0.html)
