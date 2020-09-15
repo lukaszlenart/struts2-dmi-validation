@@ -9,8 +9,8 @@
     <name>struts2-dmi-validation</name>
 
     <properties>
-        <struts2.version>2.5.20</struts2.version>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+        <struts2.version>2.5.22</struts2.version>
         <log4j.version>2.13.2</log4j.version>
     </properties>
 
